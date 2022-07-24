@@ -1,9 +1,11 @@
 #ifndef QUESTION_H_INCLUDED
 #define QUESTION_H_INCLUDED
 
+#include <string>
+using std::string;
 
 
-using namespace Ask {
+namespace Ask {
 class Question {
 private:
     int question_id;
@@ -24,9 +26,9 @@ public:
     // Printing
     void PrintToQuestion() const;
     void PrintFromQuestion() const;
-    void PrintFeedQuestion() const
+    void PrintFeedQuestion() const;
     // Setters and Getters
-    const string& GetAnswerText() const;
+    const string & GetAnswerText() const ;
     void SetAnswerText(const string& answerText);
     int GetFromUserId() const;
     void SetFromUserId(int fromUserId);
@@ -36,7 +38,7 @@ public:
     void SetParentQuestionId(int parentQuestionId);
     int GetQuestionId() const ;
     void SetQuestionId(int questionId) ;
-    const string& GetQuestionText() const;
+    const string& GetQuestionText() ;
     void SetQuestionText(const string& questionText);
     int GetToUserId() const;
     void SetToUserId(int toUserId);

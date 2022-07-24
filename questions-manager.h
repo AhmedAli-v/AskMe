@@ -1,10 +1,11 @@
 #ifndef QUESTIONS-MANAGER_H_INCLUDED
 #define QUESTIONS-MANAGER_H_INCLUDED
-
+#include "User.h"
+#include "Question.h"
 #include <string>
 #include <vector>
 #include <map>
-using namespace Ask{
+namespace Ask{
 
 class QuestionsManager {
 

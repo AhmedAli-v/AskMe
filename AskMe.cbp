@@ -34,9 +34,17 @@
 		</Compiler>
 		<Unit filename="Question.cpp" />
 		<Unit filename="Question.h" />
+		<Unit filename="User.cpp" />
+		<Unit filename="User.h" />
+		<Unit filename="askme-system.cpp" />
+		<Unit filename="askme-system.h" />
 		<Unit filename="helper.cpp" />
 		<Unit filename="helper.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="questions-manager.cpp" />
+		<Unit filename="questions-manager.h" />
+		<Unit filename="users-manager.cpp" />
+		<Unit filename="users-manager.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

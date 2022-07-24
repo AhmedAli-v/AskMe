@@ -1,23 +1,29 @@
 #include "User.h"
-
+#include <vector>
+#include "helper.h"
+#include <iostream>
+#include <sstream>
+#include <map>
+#include <string>
+using std::ostringstream;
 using std::cin;
 using std::cout;
-using namespace Ask{
+namespace Ask{
 
 	User::User() :
 			user_id(-1), allow_anonymous_questions(-1) {
 	}
 
 	User::User(const string &line) {
-		vector<string> substrs = SplitString(line);
+		vector<string> substrs = Helper::SplitString(line);
 		assert(substrs.size() == 6);
 
-		user_id = ToInt(substrs[0]);
+		user_id = Helper::ToInt(substrs[0]);
 		user_name = substrs[1];
 		password = substrs[2];
 		name = substrs[3];
 		email = substrs[4];
-		allow_anonymous_questions = ToInt(substrs[5]);
+		allow_anonymous_questions = Helper::ToInt(substrs[5]);
 	}
 
 	string User::ToString() const {

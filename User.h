@@ -3,9 +3,14 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <utility>
+using std::vector;
+using std::string;
+using std::map;
+using std::pair;
+namespace Ask{
 
-using namespace Ask{
-Class User {
+class User {
 private:
     int user_id;		// internal system ID
 	string user_name;
@@ -28,7 +33,7 @@ public:
     int IsAllowAnonymousQuestions() const;
     void SetAllowAnonymousQuestions(int allowAnonymousQuestions);
     const string& GetEmail() const;
-    void SetEmail(const string& email;
+    void SetEmail(const string& email);
     const string& GetName() const ;
 	void SetName(const string& name) ;
 	const string& GetPassword() const ;

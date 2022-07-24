@@ -2,52 +2,81 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="helper.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="User.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="734" topLine="15" />
+			<Cursor1 position="160" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Question.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="askme-system.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="644" topLine="18" />
+			<Cursor1 position="194" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Question.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="users-manager.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1782" topLine="60" />
+			<Cursor1 position="2920" topLine="9" />
 		</Cursor>
 		<Folding>
-			<Collapse line="81" />
-			<Collapse line="85" />
-			<Collapse line="89" />
-			<Collapse line="93" />
-			<Collapse line="97" />
-			<Collapse line="101" />
-			<Collapse line="105" />
-			<Collapse line="109" />
-			<Collapse line="113" />
-			<Collapse line="117" />
-			<Collapse line="121" />
-			<Collapse line="125" />
-			<Collapse line="129" />
-			<Collapse line="133" />
+			<Collapse line="64" />
+			<Collapse line="83" />
+			<Collapse line="87" />
+			<Collapse line="91" />
 		</Folding>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="askme-system.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="60" topLine="0" />
+			<Cursor1 position="238" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="Question.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2466" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="User.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1077" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="questions-manager.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="397" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="questions-manager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="154" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="helper.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="363" topLine="12" />
 		</Cursor>
 	</File>
 	<File name="helper.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1425" topLine="6" />
+			<Cursor1 position="312" topLine="9" />
 		</Cursor>
 		<Folding>
-			<Collapse line="6" />
-			<Collapse line="34" />
-			<Collapse line="53" />
-			<Collapse line="72" />
-			<Collapse line="82" />
+			<Collapse line="39" />
+			<Collapse line="58" />
+			<Collapse line="77" />
+			<Collapse line="87" />
 		</Folding>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="46" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="users-manager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="582" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="Question.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="485" topLine="21" />
+		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

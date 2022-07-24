@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1658675800 source:d:\study\cpp-projects\askme\askme-system.cpp
+	"askme-system.h"
+	"helper.h"
+
+1658675769 d:\study\cpp-projects\askme\askme-system.h
+	"users-manager.h"
+	"questions-manager.h"
+
+1658674662 d:\study\cpp-projects\askme\users-manager.h
+	"User.h"
+	"Question.h"
+	<map>
+	<vector>
+
+1658675234 d:\study\cpp-projects\askme\user.h
+	<string>
+	<vector>
+	<map>
+	<utility>
+
+1658678743 d:\study\cpp-projects\askme\question.h
+	<string>
+
+1658674664 d:\study\cpp-projects\askme\questions-manager.h
+	"User.h"
+	"Question.h"
+	<string>
+	<vector>
+	<map>
+
+1658679101 d:\study\cpp-projects\askme\helper.h
+	<cmath>
+	<cassert>
+	<algorithm>
+	<memory>
+	<vector>
+
+1658679224 source:d:\study\cpp-projects\askme\main.cpp
+	<iostream>
+	"askme-system.h"
+
+1658678750 source:d:\study\cpp-projects\askme\question.cpp
+	"Question.h"
+	"helper.h"
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+
+1658679383 source:d:\study\cpp-projects\askme\helper.cpp
+	"helper.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1658678775 source:d:\study\cpp-projects\askme\questions-manager.cpp
+	"questions-manager.h"
+	"helper.h"
+	<iostream>
+	<cmath>
+
+1658678961 source:d:\study\cpp-projects\askme\user.cpp
+	"User.h"
+	<vector>
+	"helper.h"
+	<iostream>
+	<sstream>
+	<map>
+	<string>
+
+1658679042 source:d:\study\cpp-projects\askme\users-manager.cpp
+	"users-manager.h"
+	"helper.h"
+	<string>
+	<iostream>
+	<cmath>
+	<vector>
+

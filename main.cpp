@@ -1,9 +1,9 @@
 #include <iostream>
-
-using namespace std;
-
+#include "askme-system.h"
+using Ask::AskMeSystem;
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+AskMeSystem service;
+service.Run();
+
 }

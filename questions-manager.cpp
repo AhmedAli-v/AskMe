@@ -1,9 +1,13 @@
 #include "questions-manager.h"
-
+#include "helper.h"
+#include <iostream>
+#include <cmath>
+using std::make_pair;
+using std::max;
 using std::cin;
 using std::cout;
 
-using namespace Ask {
+namespace Ask {
 
  QuestionsManager::QuestionsManager() {
 		last_id = 0;
@@ -14,7 +18,7 @@ using namespace Ask {
 		questionid_questionidsThead_to_map.clear();
 		questionid_questionobject_map.clear();
 
-		vector<string> lines = ReadFileLines("questions.txt");
+		vector<string> lines = Helper::ReadFileLines("questions.txt");
 		for (const auto &line : lines) {
 			Question question(line);
 			last_id = max(last_id, question.GetQuestionId());
@@ -236,7 +240,7 @@ using namespace Ask {
 		for (const auto &pair : questionid_questionobject_map)
 			lines.push_back(pair.second.ToString());
 
-		WriteFileLines("questions.txt", lines, false);
+		Helper::WriteFileLines("questions.txt", lines, false);
 	}
 
 
