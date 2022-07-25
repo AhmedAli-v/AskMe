@@ -36,8 +36,7 @@ vector<string> Helper::ReadFileLines(const string &path) {
 	return lines;
 }
 
-
-void Helper::WriteFileLines(const string &path, const vector<string> &lines, bool append )  {
+ void Helper::WriteFileLines(const string &path, const vector<string> &lines, bool append )  {
 auto status=ios::in | ios::out | ios::app;
 
 if(!append){
@@ -56,8 +55,7 @@ file_handler.close();
 }
 
 
-vector<string> Helper::SplitString(const string &str) {
-string delimiter=",";
+vector<string> Helper::SplitString(const string &str,const string &delimiter) {
 string s = str;
 	vector<string> strs;
 

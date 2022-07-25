@@ -42,8 +42,10 @@ namespace Ask {
 
 		while (true) {
 			string name, pass;
-			cout << "Enter user name & password: ";
-			cin >> name >> pass;
+			cout << "\nUser Name: ";
+			cin >> name ;
+			cout <<  "\n Password: ";
+			cin >> pass;
 			current_user.SetUserName(name);
 			current_user.SetPassword(pass);
 

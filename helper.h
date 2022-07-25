@@ -20,10 +20,10 @@ public:
 //parameter is a constant ref. so that dev knows he is not allowed to edit it
 static vector<string> ReadFileLines(const string &path);
 
-static void WriteFileLines(const string &path, const vector<string> &lines, bool append) ;
+static void WriteFileLines(const string &path, const vector<string> &lines, bool append=true) ;
 
 
-static vector<string> SplitString(const string &str ) ;
+static vector<string> SplitString(const string &str,const string &delimiter="," ) ;
 
 static int ToInt(const string &str)  ;
 
